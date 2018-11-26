@@ -24,3 +24,10 @@ batch reduce image size
 ``` bash
 sips -Z 500 *.jpg
 ```
+
+## timezone
+```bash
+sudo yum install ntp -y
+sudo systemctl start ntpd
+sudo systemctl enable ntpd
+```
